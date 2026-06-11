@@ -5,3 +5,5 @@ requests>=2.31
 
 # Étapes suivantes (consolidation, visualisation, ML)
 pandas>=2.0
+matplotlib>=3.7
+seaborn>=0.13
