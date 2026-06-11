@@ -14,6 +14,9 @@ data.zip
 # Jupyter
 .ipynb_checkpoints/
 
+# Tests
+.pytest_cache/
+
 # OS / éditeurs
 .DS_Store
 .vscode/
