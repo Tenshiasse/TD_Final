@@ -2,6 +2,9 @@
 
 Ce package regroupe les briques réutilisables du TD, étape par étape :
 
+* ``anssi.feeds``      — Étape 1 : extraction des flux RSS (avis & alertes).
+* ``anssi.cves``       — Étape 2 : extraction exhaustive des CVE par bulletin.
+* ``anssi.enrichment`` — Étape 3 : enrichissement MITRE + FIRST (EPSS).
 * ``anssi.feeds`` — Étape 1 : extraction des flux RSS (avis & alertes).
 * ``anssi.cves``  — Étape 2 : extraction exhaustive des CVE par bulletin.
 * ``anssi.enrichment`` — Étape 3 : enrichissement MITRE et FIRST/EPSS.
