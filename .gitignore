@@ -1,0 +1,9 @@
+# Tooling local
+.claude/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
