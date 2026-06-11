@@ -20,6 +20,17 @@ from .cves import (
     extract_all_cves,
     cves_to_dataframe,
 )
+from .enrichment import (
+    AffectedProduct,
+    MitreData,
+    FirstData,
+    CveEnrichment,
+    parse_mitre,
+    parse_first,
+    enrich_cve,
+    enrich_cves,
+    enrichment_to_dataframe,
+)
 
 __all__ = [
     # étape 1
@@ -34,4 +45,14 @@ __all__ = [
     "extract_bulletin_cves",
     "extract_all_cves",
     "cves_to_dataframe",
+    # étape 3
+    "AffectedProduct",
+    "MitreData",
+    "FirstData",
+    "CveEnrichment",
+    "parse_mitre",
+    "parse_first",
+    "enrich_cve",
+    "enrich_cves",
+    "enrichment_to_dataframe",
 ]
