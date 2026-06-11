@@ -444,7 +444,7 @@ if __name__ == "__main__":
     import logging as _logging
 
     _logging.basicConfig(level=_logging.INFO, format="%(levelname)s | %(message)s")
-    os.chdir(r"C:\Users\natha\Downloads\TD_Final")
+    os.chdir(Path(__file__).resolve().parent.parent)
 
     sample = [
         "CVE-2023-44453",   # 1 CVE, CVSS V3.1 attendu

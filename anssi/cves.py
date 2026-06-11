@@ -315,7 +315,7 @@ if __name__ == "__main__":
 
     _logging.basicConfig(level=_logging.INFO, format="%(levelname)s | %(message)s")
 
-    os.chdir(r"C:\Users\natha\Downloads\TD_Final")
+    os.chdir(Path(__file__).resolve().parent.parent)
     results = extract_all_cves()
 
     total_cves = len({cve for b in results for cve in b.cves})
